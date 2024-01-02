@@ -80,3 +80,8 @@ input:focus {
     left: 13vw;
     width: 5vw;
 }
+
+
+@media screen and (min-width: 1024px){
+    
+}
