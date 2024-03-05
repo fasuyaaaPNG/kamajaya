@@ -7,7 +7,7 @@ export default function Home() {
     <nav className="navbar">
       <div className="navbar-container container">
         <div>
-          <h1 className="navbar-brand">Roronoa Zoro</h1>
+          <img src="/login/kamajayaLogo.svg" alt="" className="imgLogo" />
         </div>
         <ul className="menu-items">
           <li><a href="#about">About</a></li>
