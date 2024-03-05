@@ -31,23 +31,23 @@ header {
 .imgLogo {
     margin-top: 4vw;
     border: 1px solid lightgreen;
+    width: auto;
 }
 
 
 .menu-items {
     display: flex;
     border: 1px solid lightcoral;
-    margin-left: 5vw;
 }
   
 .menu-items li {
     list-style: none;
-    padding: 2vw;
+    padding: 1vw;
 }
   
 .menu-items a {
     text-decoration: none;
     color: #f0f0e6;
-    font-size: 0.8vw;
-    padding: 0.9vw;
+    font-size: 1vw;
+    padding: 0vw;
 }
