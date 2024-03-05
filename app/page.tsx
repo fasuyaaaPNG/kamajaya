@@ -1,4 +1,4 @@
-import "./style.css"
+import "./pageModule.css"
 
 export default function Home() {
   return (
