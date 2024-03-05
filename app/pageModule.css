@@ -8,6 +8,26 @@ header {
     border: 1px solid lightblue;
 }
 
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+  
+  
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+  
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
 .imgLogo {
     margin-top: 4vw;
     border: 1px solid lightgreen;
