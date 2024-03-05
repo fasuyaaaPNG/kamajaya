@@ -17,7 +17,7 @@ export default function Home() {
               <a> Daftar </a>
             </li>
             <li>
-              <a> HALO </a>
+              <a> HALOooooo </a>
             </li>
           </ul>
         </div>
