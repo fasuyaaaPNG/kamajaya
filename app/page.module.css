@@ -1,5 +1,4 @@
-header {
-  background-color:aquamarine;
-  font-family: 'Montserrat', sans-serif;
+.nav-item {
+  border: 1px solid red;
 }
 
