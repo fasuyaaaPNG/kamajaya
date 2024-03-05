@@ -9,7 +9,13 @@ export default function Home() {
         <div className="navbar-container">
           <ul className="nav-item">
             <li>
+              <a> Beranda </a>
+            </li>
+            <li>
               <a> Tentang </a>
+            </li>
+            <li>
+              <a> Daftar </a>
             </li>
           </ul>
         </div>
