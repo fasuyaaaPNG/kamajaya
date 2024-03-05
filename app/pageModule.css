@@ -9,13 +9,14 @@ header {
 }
 
 .imgLogo {
-    margin-top: 8vw;
+    margin-top: 4vw;
     border: 1px solid lightgreen;
 }
 
 
 .menu-items {
     display: flex;
+    text-align: right;
     border: 1px solid lightcoral;
 }
   
