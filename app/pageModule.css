@@ -1,4 +1,17 @@
 header {
     background-color: #1B1A1F;
     height: 4vw;
+    border: 1px solid red;
+}
+
+.navbar {
+    border: 1px solid lightblue;
+}
+
+.imgLogo {
+    border: 1px solid lightgreen;
+}
+
+.menu-items {
+    border: 1px solid lightcoral;
 }
