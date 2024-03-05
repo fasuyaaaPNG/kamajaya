@@ -17,6 +17,7 @@ header {
 .menu-items {
     display: flex;
     border: 1px solid lightcoral;
+    margin-left: 5vw;
 }
   
 .menu-items li {
@@ -27,6 +28,6 @@ header {
 .menu-items a {
     text-decoration: none;
     color: #f0f0e6;
-    font-size: 2vw;
-    padding: 2vw;
+    font-size: 0.8vw;
+    padding: 0.9vw;
 }
