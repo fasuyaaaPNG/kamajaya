@@ -34,7 +34,8 @@ header {
 
 .imgLogo {
     margin-top: 1%;
-    border: 1px solid lightgreen;
+    width: fit-content;
+
 }
 
 
