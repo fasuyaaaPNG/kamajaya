@@ -89,3 +89,7 @@ header {
     color: #f0f0e6;
     font-size:4vw;
 }
+
+.imgCircle1 {
+    border: 1px solid red;
+}

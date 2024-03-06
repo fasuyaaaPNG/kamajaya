@@ -22,7 +22,7 @@ export default function Home() {
     <div className="home-content" id="home-page">
       <div className="name">
         <div>
-          <img src="/login/Ellips 1.svg"></img>
+          <img src="/login/Ellipse 1.svg" className="imgCircle1"></img>
         </div>
         <h1>Ekspresikan gerak, ekspresikan &nbsp; &nbsp; dirimu</h1>
         <p>Ayo menjadi bagian dari komunitas kami!</p>
