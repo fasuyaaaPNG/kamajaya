@@ -56,3 +56,7 @@ header {
 
     padding: 0.8vw;
 }
+
+.menu-items a:hover {
+    border-bottom: 2px solid #f0f0e6;
+}
