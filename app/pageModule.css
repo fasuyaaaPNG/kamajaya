@@ -61,7 +61,7 @@ header {
     color: #EAE0C5;
 }
 
-.home-content .name h1 {
+.home-content .name {
     position: absolute;
     top: 47%;
     left: 50%;
@@ -69,6 +69,10 @@ header {
     color: #f0f0e6;
     width: 100%;
     text-align: center;
+
+}
+
+.home-content .name h1 {
     font-size: 2vw;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
