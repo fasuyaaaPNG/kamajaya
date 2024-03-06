@@ -21,11 +21,8 @@ export default function Home() {
 
     <div className="home-content" id="home-page">
       <div className="name">
-        <h1>Hi, I'm ロロノア・ ゾロ</h1>
-        <p>The Strongest Swordsman</p>
-      </div>
-      <div className="angle-down-icon">
-        <a href="#about"><i className="fas fa-angle-down"></i></a>
+        <h1>Ekspresikan gerak, ekspresikan dirimu</h1>
+        <p>Ayo menjadi bagian dari komunitas kami!</p>
       </div>
     </div>
 
