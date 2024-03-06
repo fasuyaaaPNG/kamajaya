@@ -84,6 +84,8 @@ header {
 }
   
 .home-content .name p {
+    font-family: 'Montserrat';
+    padding-top: 5vw;
     color: #f0f0e6;
     font-size: 5vw;
 }
