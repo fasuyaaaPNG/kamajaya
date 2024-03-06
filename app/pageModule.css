@@ -66,4 +66,19 @@ header {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-  }
+}
+
+  .home-content .name {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #07374a;
+    width: 100%;
+    text-align: center;
+}
+  
+  .home-content .name h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}  
