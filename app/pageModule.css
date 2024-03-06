@@ -64,9 +64,9 @@ header {
 .home-content .name {
     border: 1px solid orange;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
-    padding-left: 10vw;
+    padding-left: 8vw;
     transform: translate(-50%, -50%);
     color: #f0f0e6;
     width: 100%;
@@ -76,7 +76,7 @@ header {
 }
 
 .home-content .name h1 {
-    font-size: 8vw;
+    font-size: 11vw;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -87,5 +87,5 @@ header {
     font-family: 'Montserrat';
     padding-top: 5vw;
     color: #f0f0e6;
-    font-size: 5vw;
+    font-size:4vw;
 }

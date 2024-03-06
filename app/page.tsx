@@ -21,7 +21,10 @@ export default function Home() {
 
     <div className="home-content" id="home-page">
       <div className="name">
-        <h1>Ekspresikan gerak, ekspresikan dirimu</h1>
+        <div>
+          <img src="/login/Ellips 1.svg"></img>
+        </div>
+        <h1>Ekspresikan gerak, ekspresikan &nbsp; &nbsp; dirimu</h1>
         <p>Ayo menjadi bagian dari komunitas kami!</p>
       </div>
     </div>
