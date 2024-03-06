@@ -63,8 +63,8 @@ header {
 
 .home-content .name {
     position: absolute;
-    top: 20vw;
-    left: 8vw;
+    top: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #f0f0e6;
     width: 100%;
