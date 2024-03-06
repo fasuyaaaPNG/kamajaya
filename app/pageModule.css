@@ -73,7 +73,7 @@ header {
 }
 
 .home-content .name h1 {
-    font-size: 2vw;
+    font-size: 8vw;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -82,5 +82,5 @@ header {
   
 .home-content .name p {
     color: #f0f0e6;
-    font-size: 0.8vw;
+    font-size: 5vw;
 }
