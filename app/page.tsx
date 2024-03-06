@@ -12,9 +12,9 @@ export default function Home() {
           <img src="/login/kamajayaLogo.svg" alt="" className="imgLogo" />
         </div>
         <ul className="menu-items">
-          <li><a href="#beranda">Beranda</a></li>
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#daftar">Daftar</a></li>
+          <li><a href="#beranda">BERANDA</a></li>
+          <li><a href="#tentang">TENTANG</a></li>
+          <li><a href="#daftar">DAFTAR</a></li>
         </ul>
       </div>
     </nav>
