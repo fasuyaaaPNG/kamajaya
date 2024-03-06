@@ -60,3 +60,10 @@ header {
 .menu-items a:hover {
     color: #EAE0C5;
 }
+
+.playfair-display-name{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
