@@ -33,8 +33,10 @@ header {
 }
 
 .imgLogo {
+    margin-left: 3vw;
     margin-top: 1%;
     width: 5vw;
+    border: 1px solid yellow;
 
 }
 
