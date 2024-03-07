@@ -23,6 +23,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 500;
+    background-color: #1b1a1f;
 }
   
 .navbar-container {
