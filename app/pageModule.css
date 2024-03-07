@@ -90,6 +90,10 @@ header {
     font-size:4vw;
 }
 
-.imgCircle1 {
-    border: 1px solid red;
+.circle1 {
+    position: relative;
+    top: 5vw;
+    width: 50vw;
+    margin-left: 0vw;
+
 }
