@@ -5,11 +5,11 @@ body {
 header {
     background-color: #1B1A1F;
     height: 180vw;
-    border: 1px solid red;
+
 }
 
 .navbar {
-    border: 1px solid lightblue;
+
 }
 
 .container {
@@ -37,7 +37,7 @@ header {
     margin-left: 3vw;
     margin-top: 1%;
     width: 10vw;
-    border: 1px solid yellow;
+
 
 }
 
@@ -63,7 +63,7 @@ header {
 }
 
 .home-content .name {
-    border: 1px solid orange;
+
     position: absolute;
     top: 30%;
     left: 50%;
@@ -103,7 +103,7 @@ header {
 .regist {
     background-color: #5e7d75;
     color: #c5cebb;
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 4vw 9vw 4vw 9vw;
     position: relative;
     top: 8vw;
