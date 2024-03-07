@@ -92,7 +92,8 @@ header {
 
 .circle1 {
     position: relative;
-    top: 5vw;
+    bottom: 10vw;
+    right: 20vw;
     width: 50vw;
     margin-left: 0vw;
 
