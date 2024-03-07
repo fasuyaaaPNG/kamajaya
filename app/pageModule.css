@@ -109,3 +109,8 @@ header {
     top: 8vw;
     border-radius: 7vw;
 }
+
+.daftar {
+    border:0.5vw solid #c5cebb;
+    padding: 1vw;
+}

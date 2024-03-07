@@ -14,7 +14,7 @@ export default function Home() {
         <ul className="menu-items">
           <li><a href="#beranda">Beranda</a></li>
           <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#daftar">Daftar</a></li>
+          <li><a className="daftar" href="#daftar">Daftar</a></li>
         </ul>
       </div>
     </nav>
