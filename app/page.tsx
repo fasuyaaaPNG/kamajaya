@@ -26,6 +26,9 @@ export default function Home() {
         </div>
         <h1>Ekspresikan gerak, ekspresikan &nbsp; &nbsp; dirimu</h1>
         <p>Ayo menjadi bagian dari komunitas kami!</p>
+        <a href="" className="regist">
+          Mulai
+        </a>
       </div>
     </div>
 

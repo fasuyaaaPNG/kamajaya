@@ -99,3 +99,13 @@ header {
     margin-left: 0vw;
 
 }
+
+.regist {
+    background-color: #5e7d75;
+    color: #c5cebb;
+    font-size: 3vw;
+    padding: 4vw 9vw 4vw 9vw;
+    position: relative;
+    top: 8vw;
+    border-radius: 7vw;
+}
