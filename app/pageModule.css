@@ -6,12 +6,14 @@ header {
     position: relative;
     background-color: #1B1A1F;
     height: 180vw;
-    
 }
 
-.navbar {
+/* .navbar {
     
-}
+=======
+
+} */
+
 
 .container {
     max-width: 1200px;
@@ -38,8 +40,6 @@ header {
     margin-left: 3vw;
     margin-top: 1%;
     width: 10vw;
-    
-
 }
 
 
@@ -64,7 +64,6 @@ header {
 }
 
 .home-content .name {
-    
     position: absolute;
     top: 30%;
     left: 50%;
@@ -112,7 +111,7 @@ header {
 .regist {
     background-color: #5e7d75;
     color: #c5cebb;
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 4vw 9vw 4vw 9vw;
     position: relative;
     top: 8vw;
@@ -122,5 +121,4 @@ header {
 .daftar {
     border:0.5vw solid #c5cebb;
     border-radius: 2vw;
-    padding: 10vw;
 }
