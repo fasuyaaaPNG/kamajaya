@@ -29,8 +29,13 @@ export default function Home() {
         <a href="" className="regist">
           Mulai
         </a>
+        <div>
+          <img src="/login/Ellipse 2.png" className="circle2"></img>
+        </div>
       </div>
     </div>
+
+    <div></div>
 
 </header>
 </body> 

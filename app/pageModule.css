@@ -3,13 +3,14 @@ body {
 }
 
 header {
+    position: relative;
     background-color: #1B1A1F;
     height: 180vw;
-    border: 1px solid red;
+    
 }
 
 .navbar {
-    border: 1px solid lightblue;
+    
 }
 
 .container {
@@ -37,7 +38,7 @@ header {
     margin-left: 3vw;
     margin-top: 1%;
     width: 10vw;
-    border: 1px solid yellow;
+    
 
 }
 
@@ -63,7 +64,7 @@ header {
 }
 
 .home-content .name {
-    border: 1px solid orange;
+    
     position: absolute;
     top: 30%;
     left: 50%;
@@ -85,19 +86,27 @@ header {
 }
   
 .home-content .name p {
+    
     font-family: 'Montserrat';
-    padding-top: 5vw;
+    padding-top: 4vw;
     color: #f0f0e6;
     font-size:4vw;
 }
 
 .circle1 {
     position: relative;
+    top: 30vw;
     bottom: 10vw;
     right: 20vw;
-    width: 50vw;
+    width: 70vw;
     margin-left: 0vw;
+}
 
+.circle2 {
+    position: relative;
+    width: 60vw;
+    top: 30vw;
+    left: 50vw;
 }
 
 .regist {
@@ -112,5 +121,6 @@ header {
 
 .daftar {
     border:0.5vw solid #c5cebb;
-    padding: 1vw;
+    border-radius: 2vw;
+    padding: 10vw;
 }
