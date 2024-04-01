@@ -35,7 +35,11 @@ export default function Home() {
       </div>
     </div>
 
-    <div></div>
+    <div className="sejarah" id="tentang">
+      <div>
+        <h1>Sejarah</h1>
+      </div>
+    </div>
 
 </header>
 </body> 
