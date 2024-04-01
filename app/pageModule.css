@@ -5,14 +5,8 @@ body {
 header {
     position: relative;
     background-color: #1B1A1F;
-    height: 180vw;
+    height: 160vw;
 }
-
-/* .navbar {
-    
-=======
-
-} */
 
 
 .container {
@@ -65,15 +59,13 @@ header {
 
 .home-content .name {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     padding-left: 8vw;
     transform: translate(-50%, -50%);
     color: #f0f0e6;
     width: 100%;
     text-align: left;
-
-
 }
 
 .home-content .name h1 {
@@ -121,4 +113,16 @@ header {
 .daftar {
     border:0.5vw solid #c5cebb;
     border-radius: 2vw;
+}
+
+.sejarah {
+    position: relative;
+    color: #1B1A1F;
+    top: 20vw;
+    border: 1px solid blue;
+}
+
+.curve1 {
+    position: relative;
+    width: 10vw;
 }

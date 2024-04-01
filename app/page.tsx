@@ -32,14 +32,15 @@ export default function Home() {
         <div>
           <img src="/login/Ellipse 2.png" className="circle2"></img>
         </div>
+        <div className="sejarah" id="tentang">
+          <div>
+            <h1>Sejarah <img src="/login/curve.svg" className="curve1"></img></h1>
+          </div>
+      </div>
       </div>
     </div>
 
-    <div className="sejarah" id="tentang">
-      <div>
-        <h1>Sejarah</h1>
-      </div>
-    </div>
+
 
 </header>
 </body> 
