@@ -34,10 +34,11 @@ export default function Home() {
         </div>
         <div className="sejarah" id="tentang">
           <div>
-            <h1>Sejarah <img src="/login/curve.svg" className="curve1"></img></h1>
+            <h1 className="sejarah1 sejarahJudul">Sejarah <img src="/login/curve.svg" className="curve1"></img></h1>
           </div>
           <div>
-            <h2>Kamajayaratih merupakan komunitas tari di SMK Negeri 7 Semarang. Pada masa sebelum tahun 2017, aktivitas seni tari di lingkungan tersebut masih berkutat pada momen-momen spesifik, terutama sebelum acara wisuda dimana tarian gambyong menjadi sorotan utama.  </h2>
+            <h2 className="sejarah1">Kamajayaratih merupakan komunitas tari di SMK Negeri 7 Semarang. Pada masa sebelum tahun 2017, aktivitas seni tari di lingkungan tersebut masih berkutat pada momen-momen spesifik, terutama sebelum acara wisuda dimana tarian gambyong menjadi sorotan utama.  </h2> <br></br>
+            <h2 className="sejarah1">Pada tahun 2017, semangat tersebut menggeliat menjadi sebuah inisiatif yang lebih terstruktur dan berkesinambungan. Dari kolaborasi mereka lahir sebuah komunitas yang diberi nama Kamajayaratih. Awalnya, Kamajayaratih masih berupa komunitas tanpa struktur organisasi yang jelas, namun semangat dan keinginan untuk terus berkembang dalam seni tari menjadi pendorong utama.</h2>
           </div>
       </div>
       </div>

@@ -60,13 +60,15 @@ header {
 
 .home-content .name {
     position: absolute;
-    top: 40%;
+    top: 65%;
     left: 50%;
     padding-left: 8vw;
     transform: translate(-50%, -50%);
     color: #f0f0e6;
     width: 100%;
     text-align: left;
+    border: 1px solid red;
+    padding-top: 50vw;
 }
 
 .home-content .name h1 {
@@ -120,14 +122,26 @@ header {
     position: relative;
     font-family: 'Montserrat';
     font-size: 3vw;
-    font-weight: 100;
     color: #1B1A1F;
-    top: 20vw;
+    top: 10vw;
     border: 1px solid blue;
+
 }
 
 
 .curve1 {
     position: relative;
     width: 10vw;
+}
+
+.sejarahJudul {
+    margin-bottom: 3vw;
+}
+
+.sejarah1 {
+ 
+    padding-right: 8vw;
+    position: relative;
+    top: 10vw;
+    font-weight: 500;
 }
