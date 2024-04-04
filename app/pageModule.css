@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat';
+    height: 100vh;
 }
 
 header {
@@ -117,10 +118,14 @@ header {
 
 .sejarah {
     position: relative;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    font-weight: 100;
     color: #1B1A1F;
     top: 20vw;
     border: 1px solid blue;
 }
+
 
 .curve1 {
     position: relative;

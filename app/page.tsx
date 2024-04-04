@@ -36,6 +36,9 @@ export default function Home() {
           <div>
             <h1>Sejarah <img src="/login/curve.svg" className="curve1"></img></h1>
           </div>
+          <div>
+            <h2>Kamajayaratih merupakan komunitas tari di SMK Negeri 7 Semarang. Pada masa sebelum tahun 2017, aktivitas seni tari di lingkungan tersebut masih berkutat pada momen-momen spesifik, terutama sebelum acara wisuda dimana tarian gambyong menjadi sorotan utama.  </h2>
+          </div>
       </div>
       </div>
     </div>
