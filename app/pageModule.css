@@ -60,7 +60,7 @@ header {
 
 .home-content .name {
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 50%;
     padding-left: 8vw;
     transform: translate(-50%, -50%);
@@ -103,6 +103,13 @@ header {
     left: 50vw;
 }
 
+.circle3 {
+    position: relative;
+    width: 30vw;
+    left: 65vw;
+    top: 20vw;
+}
+
 .regist {
     background-color: #5e7d75;
     color: #c5cebb;
@@ -123,7 +130,7 @@ header {
     font-family: 'Montserrat';
     font-size: 2.8vw;
     color: #1B1A1F;
-    top: 10vw;
+    top: 5vw;
     border: 1px solid blue;
 
 }

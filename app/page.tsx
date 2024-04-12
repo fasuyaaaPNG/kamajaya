@@ -45,7 +45,7 @@ export default function Home() {
             Sejak berdirinya, Kamajayaratih bukan hanya komunitas seni tari, tetapi juga wadah bagi individu dengan minat serupa untuk belajar, berkarya, dan tumbuh bersama. Dengan semangat kebersamaan dan dedikasi, Kamajayaratih terus maju sebagai pelaku seni tari yang berpengaruh. </h2>
           </div>
           <div>
-          <img src="/login/Ellipse 3.png" className="circle2"></img>
+          <img src="/login/Ellipse 3.svg" className="circle3"></img>
           </div>
       </div>
       </div>
