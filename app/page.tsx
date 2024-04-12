@@ -38,7 +38,14 @@ export default function Home() {
           </div>
           <div>
             <h2 className="sejarah1">Kamajayaratih merupakan komunitas tari di SMK Negeri 7 Semarang. Pada masa sebelum tahun 2017, aktivitas seni tari di lingkungan tersebut masih berkutat pada momen-momen spesifik, terutama sebelum acara wisuda dimana tarian gambyong menjadi sorotan utama.  </h2> <br></br>
-            <h2 className="sejarah1">Pada tahun 2017, semangat tersebut menggeliat menjadi sebuah inisiatif yang lebih terstruktur dan berkesinambungan. Dari kolaborasi mereka lahir sebuah komunitas yang diberi nama Kamajayaratih. Awalnya, Kamajayaratih masih berupa komunitas tanpa struktur organisasi yang jelas, namun semangat dan keinginan untuk terus berkembang dalam seni tari menjadi pendorong utama.</h2>
+            <h2 className="sejarah1">Pada tahun 2017, semangat tersebut menjadi sebuah inisiatif yang lebih terstruktur. Dari kolaborasi mereka lahir sebuah komunitas yang diberi nama Kamajayaratih. </h2> <br></br>
+
+            <h2 className="sejarah1">Kamajayaratih tidak berjalan sendiri. Mereka mulai berkolaborasi dengan berbagai pihak, termasuk Steen. Nama Kamajayaratih diambil dari tokoh pewayangan, Kamajaya-Kamaratih, melambangkan semangat berkarya, berkembang, dan berkolaborasi.
+
+            Sejak berdirinya, Kamajayaratih bukan hanya komunitas seni tari, tetapi juga wadah bagi individu dengan minat serupa untuk belajar, berkarya, dan tumbuh bersama. Dengan semangat kebersamaan dan dedikasi, Kamajayaratih terus maju sebagai pelaku seni tari yang berpengaruh. </h2>
+          </div>
+          <div>
+          <img src="/login/Ellipse 3.png" className="circle2"></img>
           </div>
       </div>
       </div>
