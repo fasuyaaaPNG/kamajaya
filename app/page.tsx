@@ -41,7 +41,7 @@ export default function Home() {
             <h2 className="sejarah1">Pada tahun 2017, semangat tersebut menjadi sebuah inisiatif yang lebih terstruktur. Dari kolaborasi mereka lahir sebuah komunitas yang diberi nama Kamajayaratih. </h2> <br></br>
 
             <h2 className="sejarah1">Kamajayaratih tidak berjalan sendiri. Mereka mulai berkolaborasi dengan berbagai pihak, termasuk Steen. Nama Kamajayaratih diambil dari tokoh pewayangan, Kamajaya-Kamaratih, melambangkan semangat berkarya, berkembang, dan berkolaborasi.
-
+            <br></br> <br></br>
             Sejak berdirinya, Kamajayaratih bukan hanya komunitas seni tari, tetapi juga wadah bagi individu dengan minat serupa untuk belajar, berkarya, dan tumbuh bersama. Dengan semangat kebersamaan dan dedikasi, Kamajayaratih terus maju sebagai pelaku seni tari yang berpengaruh. </h2>
           </div>
           <div>
