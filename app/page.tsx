@@ -65,11 +65,23 @@ export default function Home() {
         </h2>
       </div>
       <img src="/landing/asset1.png" alt="" className="asset1" />
+      <div className="footer">
+        <div className="fotoJudul">
+          <img src="/landing/foto4.png" alt="" className="fotoFooter" />
+          <p className="judulTextFooter">
+            Kamajayaratih<br /><span className="judulTextFooterBiasa">Komunitas Tari Pojok Simpang Lima</span>
+          </p>
+        </div>
+        <p className="footerAjakan">
+          Ayo bergabung dengan komunitas kami! Berkarya bersama-sama bangun mimpimu 
+        </p>
+        <a href="" className="gabungFooter">
+          Gabung sekarang
+        </a>
+        <img src="/landing/asset2.png" alt="" className="asset2" />
+      </div>
     </div>
   </div>
-
-
-
 </header>
 </body> 
   )

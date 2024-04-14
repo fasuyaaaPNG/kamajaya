@@ -80,7 +80,6 @@ header {
 }
   
 .home-content .name p {
-    
     font-family: 'Montserrat';
     padding-top: 4vw;
     color: #f0f0e6;
@@ -186,4 +185,78 @@ header {
     width: 60vw;
     position: absolute;
     right: 60vw;
+}
+
+.footer {
+    background-color: #1B1A1F;
+    position: relative;
+    right: 9vw;
+    width: 103vw;
+    top: 30vw;
+    height: 95vh;
+}
+
+.fotoFooter {
+    width: 110vw;
+    position: relative;
+    right: 0vw;
+    padding-top: 20vw;
+    opacity: 0.18;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.judulTextFooter {
+    font-family: "Playfair Display", serif !important;
+    opacity: 1 !important;
+    position: absolute;
+    color: rgb(255, 255, 255) !important;
+    top: 23vw;
+    text-align: center;
+    /* border: 1px solid red; */
+    left: 15vw;
+    font-size: 9vw !important;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 8.5vw;
+}
+
+.judulTextFooterBiasa {
+    font-size: 4vw !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-family: 'Montserrat' !important;
+}
+
+.footerAjakan {
+    font-size: 4vw !important;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 90vw;
+    margin: auto;
+    position: relative;
+    right: 1vw;
+    margin-top: 7vw;
+    font-weight: 300 !important;
+    margin-bottom: 9vw;
+}
+
+.gabungFooter {
+    margin: auto;
+    position: relative;
+    background-color: #5E7D75;
+    font-size: 4vw !important;
+    font-weight: 300 !important;
+    padding: 4vw 8vw 4vw 8vw;
+    border-radius: 8vw;
+    display: block;
+    text-align: center;
+    width: 60vw;
+}
+
+.asset2 {
+    position: absolute;
+    width: 110vw;
+    right: 2vw;
+    bottom: -5vw;
 }
