@@ -24,7 +24,7 @@ export default function Home() {
 
           <img src="/login/Ellipse 1.svg" className="circle1"></img>
         <h1>Ekspresikan gerak, ekspresikan &nbsp; &nbsp; dirimu</h1>
-        <p>Ayo menjadi bagian dari komunitas kami!</p>
+        <p className="ayo">Ayo menjadi bagian dari komunitas kami!</p>
         <a href="" className="regist">
           Mulai
         </a>

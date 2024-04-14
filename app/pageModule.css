@@ -68,22 +68,26 @@ header {
     width: 100%;
     text-align: left;
     /* border: 1px solid red; */
-    padding-top: 330vw;
+    padding-top: 505vw;
 }
 
 .home-content .name h1 {
-    font-size: 11vw;
+    font-size: 10vw;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+}
+
+.ayo {
+    font-size:4vw;
+    width: 60vw;
+    line-height: 7vw;
 }
   
 .home-content .name p {
     font-family: 'Montserrat';
     padding-top: 4vw;
     color: #f0f0e6;
-    font-size:4vw;
 }
 
 .circle1 {
@@ -193,7 +197,7 @@ header {
     right: 9vw;
     width: 103vw;
     top: 30vw;
-    height: 95vh;
+    height: 90vh;
 }
 
 .fotoFooter {
