@@ -86,8 +86,8 @@ body {
 }
 
 .terima,.tolak {
-    width: 6vw;
-    height: 6vw;
+    width: 5vw;
+    height: 5vw;
 }
 
 .statusInfo {
@@ -107,5 +107,5 @@ body {
 
 .statusButton {
     display: flex;
-    gap: 7vw;
+    gap: 5vw;
 }
