@@ -239,8 +239,8 @@ header {
     width: 90vw;
     margin: auto;
     position: relative;
-    right: 1vw;
-    margin-top: 7vw;
+    right: 0vw;
+    margin-top: 5vw;
     font-weight: 300 !important;
     margin-bottom: 9vw;
 }
