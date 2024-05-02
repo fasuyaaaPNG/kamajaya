@@ -27,7 +27,7 @@
 .logo {
     width: 10vw;
     position: absolute;
-    top: 1vh;
+    margin-top: 1%;
     right: 80vw;
 }
 
