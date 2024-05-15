@@ -50,14 +50,26 @@ export default function Main() {
         }
 
         return data[0].id;
-    };  
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        const cookies = document.cookie;
+        const cookieArray = cookies.split(';');
+        const cookieObject: Record<string, string> = {};
+
+        cookieArray.forEach(cookie => {
+            const [name, value] = cookie.trim().split('=');
+            cookieObject[name] = decodeURIComponent(value);
+        });
+
+        const isLogin = cookieObject['is_login'];
+        const decryptedEmail = isLogin ? decryptEmail(isLogin) : '';
+        
         const { data, error } = await supabase
             .from('pendaftaran')
-            .insert([{ nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
-            .eq('email', decryptEmail)
+            .insert([{ email_pendaftar: decryptedEmail, nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
         
         if (error) {
             console.error(error);
@@ -66,6 +78,10 @@ export default function Main() {
                 errorContainer.classList.add('error-show');
             }
         }
+
+        alert("Silahkan tunggu Email dari kami")
+        window.location.href = window.location.href;
+
     };
 
     useEffect(() => {
