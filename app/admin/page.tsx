@@ -27,7 +27,8 @@ export default function Admin() {
     const fetchRegistrations = async () => {
         const { data: registrationsData, error: registrationsError } = await supabase
             .from('pendaftaran')
-            .select('nama_lengkap, email_pendaftar, kelas, alamat, nomor_telepon, terima');
+            .select('nama_lengkap, email_pendaftar, kelas, alamat, nomor_telepon, terima')
+            .eq('daftar', true);
 
         if (registrationsError) {
             console.error('Error fetching registrations:', registrationsError.message);
@@ -74,6 +75,11 @@ export default function Admin() {
         }
 
         return data[0].id;
+    };
+
+    const handleLogout = () => {
+        document.cookie = 'is_admin=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+        window.location.href = '/auth/login';
     };
 
     const handleAcceptClick = async (index: number) => {
@@ -125,7 +131,7 @@ export default function Admin() {
         <>
             <div className="header">
                 <img src="/admin/logoheader.png" alt="" className="logoHeader" />
-                <button className="logout">
+                <button onClick={handleLogout} className="logout">
                     Keluar
                 </button>
             </div>

@@ -69,7 +69,8 @@ export default function Main() {
         
         const { data, error } = await supabase
             .from('pendaftaran')
-            .insert([{ email_pendaftar: decryptedEmail, nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
+            .update([{ email_pendaftar: decryptedEmail, nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
+            .eq('email_pendaftar', decryptedEmail)
         
         if (error) {
             console.error(error);
