@@ -1,7 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import "./style.css"
+import { useState, useEffect } from "react";
+import "./style.css";
 import supabase from "../server/supabaseClient";
 
 export default function Main() {
@@ -40,12 +40,12 @@ export default function Main() {
             .eq('email', decryptedEmail);
 
         if (error) {
-            // console.error('Error fetching user id:', error.message);
+            console.error('Error fetching user id:', error.message);
             return null;
         }
 
         if (data.length === 0) {
-            console.error(error);
+            console.error('User not found');
             return null;
         }
 
@@ -69,20 +69,20 @@ export default function Main() {
         
         const { data, error } = await supabase
             .from('pendaftaran')
-            .update([{ email_pendaftar: decryptedEmail, nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
-            .eq('email_pendaftar', decryptedEmail)
+            .update({ email_pendaftar: decryptedEmail, nama_lengkap: nama, kelas: kelas, alamat: alamat, nomor_telepon: telepon, daftar: true })
+            .eq('email_pendaftar', decryptedEmail);
         
         if (error) {
-            console.error(error);
+            console.error('Error updating registration:', error.message);
             const errorContainer = document.getElementById('error');
             if (errorContainer) {
                 errorContainer.classList.add('error-show');
             }
+            return;
         }
 
-        alert("Silahkan tunggu Email dari kami")
+        alert("Silahkan tunggu Email dari kami");
         window.location.href = window.location.href;
-
     };
 
     useEffect(() => {
