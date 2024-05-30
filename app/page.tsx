@@ -14,7 +14,7 @@ export default function Home() {
         <ul className="menu-items">
           <li><a href="#home-page">Beranda</a></li>
           <li><a href="#tentang">Tentang</a></li>
-          <li><a className="daftar" href="/auth/regist">Daftar</a></li>
+          <li><a className="daftar" href="/main">Daftar</a></li>
         </ul>
       </div>
     </nav>
@@ -25,9 +25,9 @@ export default function Home() {
           <img src="/login/Ellipse 1.svg" className="circle1"></img>
         <h1>Ekspresikan gerak, ekspresikan &nbsp; &nbsp; dirimu</h1>
         <p className="ayo">Ayo menjadi bagian dari komunitas kami!</p>
-        <a href="" className="regist">
+        {/* <a href="" className="regist">
           Mulai
-        </a>
+        </a> */}
         <div>
           <img src="/login/Ellipse 2.png" className="circle2"></img>
         </div>
