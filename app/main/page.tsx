@@ -57,8 +57,7 @@ import supabase from "../server/supabaseClient";
         e.preventDefault();
         const { data, error } = await supabase
             .from('pendaftaran')
-            .insert([{ nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon}])
-            .eq('email', decryptEmail)
+            .insert([{ email_pendaftar: email, nama_lengkap: nama, kelas: kelas,alamat: alamat, nomor_telepon: telepon, daftar: true}])
         
         if (error) {
             console.error(error);
@@ -66,12 +65,11 @@ import supabase from "../server/supabaseClient";
             if (errorContainer) {
                 errorContainer.classList.add('error-show');
             }
+        } else {
+            alert("Pendaftaran berhasil, tunggu pesan dari kami:)")
+            window.location.href = "/"
         }
     };
-
-    useEffect(() => {
-        getUserId();
-    }, []);
 
     return (
         <div className="backgroundDark">

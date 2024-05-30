@@ -51,14 +51,40 @@ body {
     border-radius: 3vw;
 }
 
+.boxContent {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 15vw;
+}
+
 .content {
     background-color: #F2F2F2;
     width: 82vw;
     margin: auto;
-    padding: 6vw;
+    padding: 5vw;
     border-radius: 6vw;
     margin-bottom: 3vh;
     box-shadow: 0.4vw 0.4vw 1vw #888888;
+}
+
+.newContent {
+    position: fixed;
+    bottom: 0vw;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    height: 15vw;
+    background-color: #FEFFF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonNewContent {
+    background-color: #5E7D75;
+    color: white;
+    padding: 3vw 5vw 3vw 5vw;
+    border-radius: 4vw;
 }
 
 .contentKeterangan {

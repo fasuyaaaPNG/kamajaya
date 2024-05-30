@@ -143,41 +143,48 @@ export default function Admin() {
                     {totalRegistrations}
                 </p>
             </div>
-            <div className="content">
-                {registrations.map((registration, index) => (
-                    <div key={index} className="contentKeterangan">
-                        <div className="namaEmail">
-                            <p className="nama">
-                                {registration.nama_lengkap}
+            <div className="boxContent">
+                {registrations.slice().map((registration, index) => (
+                    <div key={index} className="content">
+                        <div className="contentKeterangan">
+                            <div className="namaEmail">
+                                <p className="nama">
+                                    {registration.nama_lengkap}
+                                </p>
+                                <p className="email">
+                                    {registration.email_pendaftar}
+                                </p>
+                            </div>
+                            <p className="kelas">
+                                {registration.kelas}
                             </p>
-                            <p className="email">
-                                {registration.email_pendaftar}
+                            <p className="alamat">
+                                {registration.alamat}
                             </p>
-                        </div>
-                        <p className="kelas">
-                            {registration.kelas}
-                        </p>
-                        <p className="alamat">
-                            {registration.alamat}
-                        </p>
-                        <p className="telepon">
-                            {registration.nomor_telepon}
-                        </p>
-                        <div className="status">
-                            <p className="statusInfo" style={{ backgroundColor: registration.terima === true ? 'green' : registration.terima === false ? 'red' : 'gray' }}>
-                                {registration.terima === true ? 'Diterima' : registration.terima === false ? 'Ditolak' : 'Dalam proses'}
+                            <p className="telepon">
+                                {registration.nomor_telepon}
                             </p>
-                            <div className="statusButton">
-                            {registration.terima ? (
-                                <img src="/admin/terima.png" alt="" className="terima" />
-                            ) : (
-                                <img src="/admin/terima.png" alt="" className="terima" onClick={() => handleAcceptClick(index)} />
-                            )}
-                            <img src="/admin/tolak.png" alt="" className="tolak" onClick={() => handleRejectClick(index)} />
+                            <div className="status">
+                                <p className="statusInfo" style={{ backgroundColor: registration.terima === true ? 'green' : registration.terima === false ? 'red' : 'gray' }}>
+                                    {registration.terima === true ? 'Diterima' : registration.terima === false ? 'Ditolak' : 'Dalam proses'}
+                                </p>
+                                <div className="statusButton">
+                                {registration.terima ? (
+                                    <img src="/admin/terima.png" alt="" className="terima" />
+                                ) : (
+                                    <img src="/admin/terima.png" alt="" className="terima" onClick={() => handleAcceptClick(index)} />
+                                )}
+                                <img src="/admin/tolak.png" alt="" className="tolak" onClick={() => handleRejectClick(index)} />
+                                </div>
                             </div>
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="newContent">
+                <a href="" className="buttonNewContent">
+                    + Tambah postingan
+                </a>
             </div>
         </>
     )
