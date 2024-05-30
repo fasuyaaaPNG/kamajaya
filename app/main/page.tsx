@@ -98,6 +98,7 @@ import supabase from "../server/supabaseClient";
                             <input type="text" placeholder="Nama lengkap" className="inputBW" value={nama} onChange={(e) => setNama(e.target.value)} required/>
                             <input type="text" placeholder="Kelas" className="inputBW" value={kelas} onChange={(e) => setKelas(e.target.value)} required/>
                             <input type="text" placeholder="Alamat" className="inputBW" value={alamat} onChange={(e) => setAlamat(e.target.value)} required/>
+                            <input type="text" placeholder="Email" className="inputBW" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                             <input type="number" placeholder="Nomor telepon" className="inputBW" value={telepon} onChange={(e) => setTelepon(e.target.value)} required/>
                             <button type="submit" className="kirim">
                                 Kirim
