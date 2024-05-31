@@ -182,7 +182,7 @@ export default function Admin() {
                 ))}
             </div>
             <div className="newContent">
-                <a href="" className="buttonNewContent">
+                <a href="/admin/post" className="buttonNewContent">
                     + Tambah postingan
                 </a>
             </div>

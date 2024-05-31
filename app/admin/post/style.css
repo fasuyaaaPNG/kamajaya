@@ -1,0 +1,89 @@
+body {
+    background-color: #FEFFF9;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    margin-bottom: 5vw;
+    position: fixed;
+    background-color: #FEFFF9;
+    width: 100%;
+    z-index: 4;
+}
+
+.logout {
+    background-color: #FEFFF9;
+    border: 1px solid #5E7D75;
+    color: #5E7D75;
+    font-size: 4vw;
+    padding: 1.5vw 4vw 1.5vw 4vw;
+    border-radius: 2vw;
+}
+
+.logoHeader {
+    width: 10vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 25vw;
+    gap: 8vw;
+    padding-bottom: 2vw;
+}
+
+.content1 {
+    background-color: #F2F2F2;
+    height: 50vw;
+    justify-content: center;
+    width: 77vw;
+    display: flex;
+    align-items: center;
+    border-radius: 5vw;
+    box-shadow: 0.4vw 0.4vw 1vw #888888;
+}
+
+.isiContent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoContent1 {
+    width: 9vw;
+}
+
+.gambarFoto {
+    display: none;
+}
+
+.isiBerita {
+    width: 77vw;
+    height: 50vw;
+    border-radius: 5vw;
+    padding: 5vw 5vw 5vw 5vw;
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+    box-shadow: 0.4vw 0.4vw 1vw #888888;
+    color: #363636;
+}
+
+.isiBerita::placeholder {
+    opacity: 0.7;
+}
+
+.kirim {
+    background-color: #5E7D75;
+    color: white;
+    padding: 3vw 8vw 3vw 8vw;
+    border-radius: 4vw;
+    position: relative;
+    left: 27vw;
+}
