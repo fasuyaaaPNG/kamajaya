@@ -26,9 +26,10 @@
 
 .logo {
     width: 10vw;
-    position: absolute;
+    position: relative;
     margin-top: 1%;
     right: 80vw;
+    bottom: 22vw;
 }
 
 .judul {

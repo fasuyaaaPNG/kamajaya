@@ -71,12 +71,16 @@ import supabase from "../server/supabaseClient";
         }
     };
 
+    const linkLanding = () => {
+        window.location.href = "/"
+    }
+
     return (
         <div className="backgroundDark">
             <img src="/main/lingkaranAtas.png" className="lingkaran1" alt="" />
             <img src="/main/lingkaranAtas2.png" className="lingkaran2" alt="" />
             <img src="/main/lingkaranAtas3.png" className="lingkaran3" alt="" />
-            <img src="/main/logo.svg" alt="" className="logo" />
+            <img src="/main/logo.svg" alt="" onClick={linkLanding} className="logo" />
             <div className="judul">
                 <p className="judul1">
                     Kamajayaratih

@@ -2,8 +2,6 @@ import "./pageModule.css"
 
 export default function Home() {
   return (
-      
-
 <body>     
 <header className="header">
     <nav className="navbar">
@@ -63,6 +61,9 @@ export default function Home() {
         <h2 className="textDokumentasi">
           “Tari Warak Dugder”<br/><br />Tari Warak Dugder berasal dari Semarang. Tarian ini bisa dikatakan sebagai perpaduan antara tari tradisonal dengan kreasi baru. Dimodifikasi dari Tari Gambang Semarang oleh seniman tari kenamaan Didik Nini Towok bersama Yoyok Bambang Priyambodo.
         </h2>
+        <a href="/doc" className="lihat">
+          Lihat selengkapnya
+        </a>
       </div>
       <img src="/landing/asset1.png" alt="" className="asset1" />
       <div className="footer">

@@ -264,3 +264,14 @@ header {
     right: 2vw;
     bottom: -5vw;
 }
+
+.lihat {
+    padding: 3vw 4vw 3vw 4vw;
+    background-color: #5E7D75;
+    border-radius: 3vw;
+    font-family: 'Montserrat' !important;
+    font-size: 2.5vw;
+    position: relative;
+    top: 7vw;
+    z-index: 100;
+}
